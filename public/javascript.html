@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Explanations</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="content-wrap">
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="css/images/LogoPalette3.png" alt="Your Logo">
+                <p><a href="index.html">Ebberthrall Isle</a></p>
+            </div>
+           
+            <!-- Hamburger Menu -->
+            <div class="hamburger">≡</div>
+    
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="maps.html">Map</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+    <main>
+        <div class="jsexplained">
+        <h1>JavaScript Explanations</h1>
+        <br>
+        <!-- Home Page Explanation Section -->
+        <section>
+            <h2>Home Page</h2>
+            <p>
+                I used a dynamic navigation feature called "Box2" on my Home Page. Each navigation item has an image that changes when you hover over it, enhancing the user experience. 
+                I implemented this feature using JavaScript concepts like variables, loops, DOM manipulation, and a function called `changeImageOnHover`.
+                <br>
+                <br>
+                You can view the result <a href="index.html">here</a>.
+                <br>
+                <br>
+                I used JavaScript techniques to create a quiz on my homepage, like a Call to Action button. The quiz randomly generates questions stored in an array called `questions`. 
+                I modified the webpage using Document Object Model (DOM) methods and used functions to make the start and submit buttons work. 
+                The script checks if the user's answer is correct and provides feedback. Loops are used to go through each quiz option.
+                <br>
+                <br>
+                You can see the interactive quiz in action <a href="index.html">here</a>.
+            </p>
+        </section>
+        <br>
+        <!-- Map Page Explanation Section -->
+        <section>
+            <h2>Map Page</h2>
+            <p>
+                I used JavaScript to create an interactive Map Page with clickable "Points of Interest" (POIs) that reveal detailed descriptions when clicked. 
+                The script waits for the page to load, then iterates through each POI to attach click listeners. 
+                The functionality is designed with user experience in mind, making it easy for visitors to interact with the map and access relevant information.
+                <br>
+                <br>
+                In the future, I plan to enhance the UI by making the POIs transparent and simply indicate interactivity by changing the cursor style upon hover. 
+                This will make for a more seamless and intuitive experience for users exploring the map. Explore the interactive map <a href="maps.html">here</a>.
+            </p>
+        </section>
+        <br>
+
+        <!-- History/Timeline Page Explanation Section -->
+        <section>
+            <h2>History/Timeline Page</h2>
+            <p>
+                The History/Timeline Page has an interactive feature that shows more information when you click on a specific point on the timeline. 
+                The script checks if you're on the right page, stores references to specific parts of the page in variables, adds an event listener to each timeline point, 
+                populates a popup with dynamic information when you click on a timeline point, and makes sure the popup only closes when you click on the background. 
+                The script uses methods like `querySelectorAll()`, `getAttribute()`, and direct style manipulations to make sure the timeline is responsive and dynamic.
+                <br>
+                <br>
+                You can see the results of this Javascript <a href="history.html">here</a>.
+            
+            </p>
+        </section>
+        <br>
+
+        <!-- People/NPC Page Explanation Section -->
+        <section>
+            <h2>People/NPC Page</h2>
+            <p>
+                The JavaScript code for the People/NPC Page uses interactive cards to display information. It works with the DOM using methods like `querySelector()`,
+                 `querySelectorAll()`, and `getElementById()`. Loops attach event listeners to each card for the click action, and functions populate the modal with content 
+                 from the clicked card's attributes and inner elements. Comparison operators and conditionals are used to ensure that the modal only closes when the modal's background 
+                 (but not its content) is clicked. 
+                The modal content is updated using methods such as `getAttribute()`, `querySelector()`, and direct style manipulation.
+                <br>
+                <br>
+                You can find this Javascript implemented <a href="people.html">here</a>.
+            </p>
+        </section>
+        <br>
+
+
+<!-- Gallery Page Explanation Section -->
+<section>
+    <h2>Gallery Page</h2>
+    <p>
+        To create the Gallery Page, I checked for necessary elements using `getElementById()` and `querySelector()`. I used variables, arrays, functions, comparison statements,
+         loops, and conditional statements to implement carousel navigation, grid gallery display, image size toggling, 
+        drag functionality, and image navigation direction. I used event listeners for a responsive and fluid user experience, and to handle potential errors.
+        <br>
+        <br>
+
+        You can see them both <a href="gallery.html">here</a>.
+    </p>
+</section>
+</div>
+
+    </main>
+</div>
+    <!-- Footer -->
+    <footer>
+        <div class="js-circle">
+            <a href="javascript.html">JS</a>
+        </div>
+        <p>&copy; 2023 Tidewalker Inc. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

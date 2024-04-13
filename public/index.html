@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebberthrall Isle</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="content-wrap">
+    <!-- Header with Navigation and Logo -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="css/images/LogoPalette3.png" alt="Your Logo">
+            <p><a href="index.html">Ebberthrall Isle</a></p>
+        </div>
+       
+        <!-- Hamburger Menu -->
+        <div class="hamburger">≡</div>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="maps.html">Map</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <!-- First Box -->
+        <section class="box1">
+            <div class="text-container">
+                <p>Welcome to</p>
+                <h1>Ebberthrall Isle</h1>
+            </div>
+        </section>        
+
+        <!-- Second Box -->
+        <section class="box2">
+            <h2>Explore the Isle</h2>
+            <p>People, places, and history to discover.</p>
+            <div class="sub-box-container">
+                <div class="sub-box" data-hover-image="css/images/PortV2.jpg">
+                    <a href="maps.html">
+                        <div class="hover-image"></div> 
+                        <img src="css/images/PortV.jpg" alt="Image description">
+                        <h3>Map of the Isle</h3>
+                        <p>An interactive map of Ebberthrall with location details</p>
+                    </a>
+                </div>
+                <div class="sub-box" data-hover-image="css/images/Timeline2.jpg">
+                    <a href="history.html">
+                        <div class="hover-image"></div> 
+                        <img src="css/images/Timeline1.jpg" alt="Image description">
+                        <h3>History of Ebberthrall</h3>
+                        <p>An interactive timeline of the Isle</p>
+                    </a>
+                </div>
+                <div class="sub-box" data-hover-image="css/images/People2.jpg">
+                    <a href="people.html">
+                        <div class="hover-image"></div> 
+                        <img src="css/images/People1.jpg" alt="Image description">
+                        <h3>People of Ebberthrall</h3>
+                        <p>A library of information on the important players of Ebberthrall Isle</p>
+                    </a>
+                </div>
+                <div class="sub-box" data-hover-image="css/images/Gallery2.jpg">
+                    <a href="gallery.html">
+                        <div class="hover-image"></div> 
+                        <img src="css/images/Gallery1.jpg" alt="Image description">
+                        <h3>Gallery of the Isle</h3>
+                        <p>A gallery of images of the people and places of Ebberthrall</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Third Box: Call to Action -->
+        <section class="box3">
+            <h2 class="box3-title">Did You Know?</h2>
+            <p class="box3-text">You probably do...</p>
+            <!-- CTA button -->
+            <button id="quizButton" class="box3-button">Totally relevant questions!</button>
+
+            <!-- Quiz Modal -->
+            <div id="quizModal" class="quiz-modal">
+                <div class="quiz-content">
+                    <p id="quizQuestion"></p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="quizOption" value="1"> <span id="option1"></span></label>
+                        <label><input type="radio" name="quizOption" value="2"> <span id="option2"></span></label>
+                        <label><input type="radio" name="quizOption" value="3"> <span id="option3"></span></label>
+                    </div>
+                    <button id="submitQuiz">Submit</button>
+                    <p id="quizFeedback" class="feedback"></p> 
+                </div>
+            </div>
+        </section>
+
+
+        
+    </main>
+</div>
+    <!-- Footer -->
+    <footer>
+        <div class="js-circle">
+            <a href="javascript.html">JS</a>
+        </div>
+        <p>&copy; 2023 Tidewalker Inc. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
